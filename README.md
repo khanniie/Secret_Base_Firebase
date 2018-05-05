@@ -8,6 +8,8 @@ https://github.com/firebase/quickstart-unity
 
 I think for most people, the files you should be looking at are UAuth and Dbase. I cut a lot of corners in my code for the sake of time, but an actually good implementation is done in the firebase quickstart unity files linked above. 
 
+I couldn't find it anywhere on the tutorials, but note that you need both the andriod and the ios files that firebase gives you to download, even if you're just building to one of them. Also you need to put the andriod ones into a Streaming-Assets folder. For ios you need a working version of Cocoabeans.
+
 The Vuforia stuff is pretty normal.
 
 I had some issues with firebase, but I documented the fixes here: http://cmuems.com/2018/60212s/conye/04/06/conye-artech/
