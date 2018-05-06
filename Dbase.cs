@@ -17,7 +17,7 @@ public class Dbase: MonoBehaviour {
 
 	private void Awake() {
 		FirebaseApp.DefaultInstance.SetEditorDatabaseUrl(
-			"https://secret-base-963f7.firebaseio.com/");
+			"YOUR_URL";
 
 		fbref = Firebase.Database.FirebaseDatabase.DefaultInstance;
 		fb = Firebase.Database.FirebaseDatabase.DefaultInstance.RootReference;
